@@ -1,5 +1,7 @@
 # spring-security-google-oauth2-minimal-example
 
+This approach works well only if your spring application is a full-stack - I mean if your spring application has a back-end and front end at the same time (like thymeleaf lib or mvn had JS React lib inside). Because Google/FB authentication goes by spring lib and JWT token stored inside spring lib.
+
 
 Modules
 - authentication with Google API
